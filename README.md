@@ -25,6 +25,10 @@ A lightweight machine learning web app to predict **gender** from face images us
 ```plaintext
 ml-gender-classification/
 │
+├── Traing              ← Dataset
+│   └── Female
+│   └── Male
+│
 ├── app.py              ← Flask backend
 ├── cnn_model.h5        ← Trained CNN model
 ├── train.ipynb         ← Preprocessing + Training code
